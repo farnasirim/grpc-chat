@@ -9,7 +9,7 @@ cp config.local.example config.local
 ```
 You may want to edit config.local file.
 
-~~ If you want to keep using the default self signed certificates, you have to set an entry in ```/etc/hosts``` to make ```localhost.com``` point at ```127.0.0.1```.~~ No tls support yet, so you can safely ignore this
+~~If you want to keep using the default self signed certificates, you have to set an entry in ```/etc/hosts``` to make ```localhost.com``` point at ```127.0.0.1```.~~ No tls support yet, so you can safely ignore this
 
 Then
 
