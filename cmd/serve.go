@@ -16,9 +16,9 @@ var serveCmd = &cobra.Command{
 Creates a chatroom to which clients can connect using 'chat connect'`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) == 1 {
-			err := server.Serve(args[0])
+			err := server.Serve(args[0], false)
 			if err != nil {
-				log.Fatalln("Error: ", err.Error())
+				log.Fatalln("Error: %s", err.Error())
 			}
 		} else {
 			log.Fatalln("Incorrect number of arguments")

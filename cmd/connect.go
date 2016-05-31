@@ -18,7 +18,7 @@ You can then send messages to be broadcasted to other participants. Other
 Participants' messages will be broadcasted to you too.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) == 2 {
-			err := client.Connect(args[0], args[1])
+			err := client.Connect(args[0], args[1], false)
 			if err != nil {
 				log.Fatalln(err.Error)
 			}
