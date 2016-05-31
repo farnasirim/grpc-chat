@@ -5,7 +5,9 @@ simple chat client and server using grpc streams
 ### Run
 First things first:
 ```
-cp config.local.example config.local
+$ go get -u -v github.com/colonelmo/grpc-chat
+$ cd $GOPATH/github.com/colonelmo/grpc-chat
+$ cp config.local.example config.local
 ```
 You may want to edit config.local file.
 
@@ -14,7 +16,7 @@ You may want to edit config.local file.
 Then
 
 ```
-$ go get -u -v github.com/colonelmo/grpc-chat
+$ source config.local
 $ make build
 ```
 To run the server:
