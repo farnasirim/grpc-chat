@@ -1,0 +1,4 @@
+*swp
+chat
+config.local
+proto/*.pb.go
