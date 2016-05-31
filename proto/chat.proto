@@ -8,7 +8,8 @@ import "google/api/annotations.proto";
 message Message{
     string sender = 1;
     string text = 2;
-    bool identification = 3;
+    bool register = 3;
+    bool disconnect = 4;
 }
 
 // Services
