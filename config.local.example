@@ -1,1 +1,5 @@
 export PROTOC=protoc
+
+export CHAT_TLS_CERT=defaults/tls.cert
+export CHAT_TLS_KEY=defaults/tls.key
+export CHAT_TLS_CA=defaults/tls.cert
